@@ -19,6 +19,7 @@ header {
  padding-bottom: 1%;
  background-color: rgb(168, 190, 199);
  border-radius: 50px;
+ border: solid;
   
 
 }
@@ -28,6 +29,8 @@ main {
   width: 100%;
   display: grid;
   grid-template-columns: 30% 40% 45%;
+  border: solid;
+  border-radius: 1em;
 }
 /* This is an element within and element selector */ 
 nav > a {
@@ -133,6 +136,8 @@ button {
  padding-bottom: 25%;
  background-color: tomato;
  border-radius: 50px;
+ border: solid;
+ border-radius: 1em;
 }
 
 .left-column {
@@ -141,6 +146,10 @@ button {
  font-style: italic;
  font-weight: bold;
  color: rgb(168, 190, 199);
+ border: solid;
+ border-radius: 1em;
+ padding-left: 2%;
+ padding-right: 2%;
 
 }
 .footer-text { font-size: 25px;
