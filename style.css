@@ -17,7 +17,7 @@ header {
  padding-left: 10%;
  padding-top: 2%;
  padding-bottom: 1%;
- background-color: rgb(168, 190, 199);
+ background-color: rgb(240, 193, 107);
  border-radius: 50px;
  border: solid;
   
@@ -28,9 +28,11 @@ main {
   height: auto;
   width: 100%;
   display: grid;
+  background-color: lightblue;
   grid-template-columns: 30% 40% 45%;
   border: solid;
   border-radius: 1em;
+  
 }
 /* This is an element within and element selector */ 
 nav > a {
